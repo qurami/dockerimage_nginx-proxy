@@ -1,4 +1,4 @@
-FROM jwilder/nginx-proxy:0.5.0
+FROM jwilder/nginx-proxy:0.6.0
 RUN { \
     echo 'server_tokens off;'; \
     echo 'client_max_body_size 100m;'; \
